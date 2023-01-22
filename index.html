@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConCalc</title>
+</head>
+<body style="background-color: rgb(120, 134, 149);">
+    <center>
+        <h1>Oops!, Open your Browser console to perform calculation.</h1>
+    </center>
+    <script>
+        class calculator{
+            constructor(){
+                console.log("To perform calculation, follow the given rules:");
+                console.log("Addition: input.add(operand1,operand2)");
+                console.log("Subtraction: input.sub(operand1,operand2)");
+                console.log("Multipication: input.mul(operand1,operand2)");
+                console.log("Division: input.div(operand1,operand2)");
+            }
+            add(t1,t2){
+                    console.log(t1+ " + "+ t2 + " = " +(t1+t2)); 
+            }
+            sub(t1,t2){
+                    console.log(t1+ " - "+ t2 + " = " +(t1-t2));
+            }
+            mul(t1,t2){
+                    console.log(t1+ " * "+ t2 + " = " +(t1*t2));
+            }
+            div(t1,t2){
+                    console.log(t1+ " / "+ t2 + " = " +(t1/t2));
+            }
+        }
+        const input= new calculator();
+    </script>
+</body>
+</html>
